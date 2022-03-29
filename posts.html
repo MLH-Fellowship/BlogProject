@@ -1,16 +1,16 @@
 ---
-layout: page
+layout: default
 title: Posts
 permalink: /posts
 ---
 
-{% for item in site.data.posts %}
+{% for post in site.posts %}
     <ul>
         <li>
-          <a href="{{ item.url }}"><h1>{{ item.title }}</h1></a>
-          <h2>{{ item.description }}</h2>
-          <p>{{ item.date }}</p>
-          <p>{{ item.content }}</p>
+          <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+          <h2>{{ post.description }}</h2>
+          <p>{{ post.excerpt }}</p>
+          <p>{{ post.date }}</p>
           </li>
     </ul>
 {% endfor %}
