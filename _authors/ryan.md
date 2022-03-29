@@ -3,6 +3,4 @@ layout: post
 title: Ryan Finn
 description: About the author
 ---
-excerpt
-
 content of the post
