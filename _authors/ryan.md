@@ -3,4 +3,6 @@ layout: post
 title: Ryan Finn
 description: About the author
 ---
-content of the post
+ ![](/assets/images/unnamed.jpg)
+
+I program and stuff.
