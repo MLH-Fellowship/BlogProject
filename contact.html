@@ -4,6 +4,12 @@ title: Contact US
 permalink: /contact
 ---
 
-Drop us a message below!
-
-<!-- Write a contact form here -->
+{% for contact in site.contact %}
+<ul>
+    <li>
+      <a href="{{ contact.url }}"><h1>{{ contact.title }}</h1></a>
+      <img src="{{ contact.image }}" alt="">
+      <h2>{{ contact.description }}</h2>
+      </li>
+</ul>
+{% endfor %}
